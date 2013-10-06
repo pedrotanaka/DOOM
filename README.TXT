@@ -1,3 +1,19 @@
+Run:
+
+'''
+sudo startx -- :1 -depth 8 vt8
+Cntrl + Alt + F8 | Right Click | Open Terminal Emulator
+./compile.sh
+cd linuxdoom-1.10
+make
+cd ./../sndserv
+make
+cp ./linux/sndserver ./../../WADS/
+cd ./../linuxdoom-1.10/linux
+./run.sh
+'''
+
+=== Original README ===
 
 Here it is, at long last.  The DOOM source code is released for your
 non-profit use.  You still need real DOOM data to work with this code.
