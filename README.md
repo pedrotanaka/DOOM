@@ -1,6 +1,6 @@
 Run:
 
-'''
+```
 sudo startx -- :1 -depth 8 vt8
 Cntrl + Alt + F8 | Right Click | Open Terminal Emulator
 ./compile.sh
@@ -11,7 +11,7 @@ make
 cp ./linux/sndserver ./../../WADS/
 cd ./../linuxdoom-1.10/linux
 ./run.sh
-'''
+```
 
 === Original README ===
 
